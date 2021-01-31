@@ -2,10 +2,6 @@
 title: "Núcleo de Estudos em Representação e Democracia"
 subtitle: "NERD"
 output:
- pdf_document:
-    #toc_depth: 1
-    fig_cap: yes
-    keep_tex: yes
  html_document:
     #number_sections: yes
     toc: yes
@@ -15,6 +11,10 @@ output:
     code_folding: hide #não mostre meus codigos - é opcional p/ o usuário #hide/show
     highlight: tango #Tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, e textmate.
     theme: cosmo #cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex e yeti.
+ pdf_document:
+    #toc_depth: 1
+    fig_cap: yes
+    keep_tex: yes
 geometry: left=3cm,right=3cm,top=2cm,bottom=2cm
 fontsize: 12pt
 linestretch: 1.5 
