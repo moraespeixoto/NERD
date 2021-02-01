@@ -36,7 +36,7 @@ O grupo de pesquisa aborda a interseção entre três grandes dimensões da aná
 O NERD tem o objetivo de abranger estudos sobre política nacional visando estudos e análises comparadas. As atividades do NERD procuram atender a demanda de informações e análises no Brasil, tendo em conta que existe uma considerável escassez de informações empíricas sobre as características, funcionamento e desempenho das instituições políticas no nível municipal, assim como da interação da dimensão política com o desenvolvimento socioeconômico. 
 
 
- ![](nerd_diagrama_venn.png)
+![](nerd_diagrama_venn.png)
  
  
  
@@ -61,12 +61,18 @@ Concomitantemente ao aumento das responsabilidades e atribuições dos municípi
 
 Os dados censitários a partir de 1991 indicaram um crescimento populacional mais acelerado dos municípios de pequeno, médio e grande porte. Ressalta-se que em alguns municípios de grande porte tal perspectiva se manifestava com um ritmo de crescimento populacional superior ao das Regiões Metropolitanas na década de 1970. Nestes termos, Baeninger (1999: p.538), aponta para o fato de que “os municípios não-metropolitanos registraram um incremento relativo de 22%, no período 1970-1980, e de 6,7% no de 1991-1996”. Assim, pode-se perceber que o processo de interiorização que já vinha ocorrendo no Brasil em décadas anteriores, continuou sendo observado, agudizando-se a partir dos anos 2000.
 
+Outro ponto relevante é o fato de haver uma certa defasagem no que se refere as análises que se comprometem a compreender os possíveis efeitos causais entre a discricionariedade do ocupante da cadeira do executivo local e a provisão de políticas públicas.
+
+Uma das maiores consequências da descentralização federativa foi o destaque dado as prefeituras no que tange ao manejo de políticas sociais, principalmente, aquelas conhecidas no meio acadêmico como constitucionalizadas, como as políticas de saúde e as políticas de educação. Mesmo existindo mínimos constitucionais de aplicação financeira nessas áreas, estudos apontam que ainda há espaço para que os prefeitos ponham as suas marcas políticas na gestão dessas ações estatais. Estudar este aspecto é um dos comprometimentos do laboratório.
+
+Ainda nesse contexto, uma outra inquietação que transformar-se-á em pesquisas empíricas pelo NERD está na compreensão das relações entre práticas enquanto gestor municipal e premiação ou punição eleitoral. Um dos encargos científicos deste grupo é inferir os possíveis impactos da gestão da máquina municipal, quais sejam, aumento/diminuição do gasto com educação, aumento/diminuição de leitos hospitalares sobre o fracasso ou sucesso eleitoral dos prefeitos.
+
 Com base nestas considerações mais gerais propõe-se um núcleo de pesquisa focalizado nas questões relativas à política e ao desenvolvimento socioeconômico. As atividades do núcleo podem ser agrupadas em dois grandes eixos analíticos. O primeiro refere-se ao funcionamento das instituições políticas (eleições, administração pública, comportamento parlamentar e relação executivo-legislativo). O segundo eixo concerne ao desenvolvimento socioeconômico (atividades produtivas, estrutura social, mercado de trabalho e perfil social dos municípios). É objetivo do NERD, nos seus projetos de pesquisa e nas suas atividades em geral, analisar as possíveis relações entre ambos eixos temáticos. Inclui-se nesta proposta o intuito de contribuir com produção de informação e conhecimento científico relevante sobre o desenvolvimento político, econômico e social dos municípios brasileiros, assim como estudos que abordem o desempenho político institucional de outras regiões e municípios do país, possibilitando ainda a realização de análises comparadas, outra dos objetivos do NERD.
 
 
 ## 3. Objetivos
 <br/><br/> \hfill\break 
-Como foi definido, o NERD, tem por objetivo promover pesquisas sobre a evolução política e eleitoral no nível municipal, assim como a relação da mesma com o desenvolvimento. O NERD tem o objetivo de abranger estudos sobre política em todo o país, visando estudos e análises comparadas.
+O NERD tem por objetivo promover pesquisas sobre a evolução política e eleitoral no nível municipal, assim como a relação da mesma com o desenvolvimento. O grupo de pesquisa busca disponibilizar análises com o recorte espacial que contempla as mais de 5.550 unidades federativas locais existentes no país, com a pretensão majoritária de realizar pesquisas a partir do método comparado
 
 Os objetivos específicos do núcleo a destacar são:
 
@@ -81,7 +87,7 @@ Os objetivos específicos do núcleo a destacar são:
 
 
 ## 4. Membros
-<br/> <br/> 
+<br/> 
 
 [Vitor de Moraes Peixoto](http://lattes.cnpq.br/4676437210734787)  <br/> \hfill\break
 **Coordenador** <br/> \hfill\break
@@ -89,19 +95,38 @@ Professor Associado <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Centro de Ciências do Homem <br/> \hfill\break
 Laboratório de Estudos da Sociedade Civil e do Estado <br/> \hfill\break
-E-mail: moraespeixoto@gmail.com <br/> \hfill\break
+E-mail: vpeixoto@pq.uenf.br <br/> \hfill\break
+
+[Renato Barreto de Souza](http://lattes.cnpq.br/4208615645719699) <br/> \hfill\break
+Professor do Instituto Federal Fluminense <br/> \hfill\break
+Pós doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
+Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
+Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
+E-mail: renatobs@gmail.com  <br/> \hfill\break
+
+[Cleinton Roberto Perpeto de Souza](http://lattes.cnpq.br/9603711186053943)
+Pós doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
+Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
+Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
+E-mail:  <br/> \hfill\break
+
+[Patricia de Oliveira Burlamaqui](http://lattes.cnpq.br/6620703529177610)
+Pós doutoranda do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
+Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
+Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
+E-mail: pburlamaqui@gmail.com <br/> \hfill\break
 
 [Ralph André Crespo](http://lattes.cnpq.br/7250750885312461) <br/> \hfill\break
 Doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail: pr.ralph@yahoo.com.br <br/> \hfill\break
+E-mail: ralph.crespo@pq.uenf.br <br/> \hfill\break
 
 [Jheniffer Vieira de Almeida](http://lattes.cnpq.br/1477388811747167) <br/> \hfill\break
 Doutoranda do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail: jheniffer.vi@gmail.com <br/> \hfill\break
+E-mail: jhenifferalmeida@pq.uenf <br/> \hfill\break
 
 [Raphael de Mello Veloso](http://lattes.cnpq.br/9433034841064768) <br/> \hfill\break
 Doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
@@ -113,19 +138,19 @@ E-mail: raphamv@gmail.com  <br/> \hfill\break
 Doutoranda do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/>\hfill\break
-E-mail: gibragabastos@gmail.com <br/> \hfill\break
+E-mail: gibragabastos@pq.uenf.br <br/> \hfill\break
 
 [Jessica Matheus de Souza](http://lattes.cnpq.br/6717255818088404) <br/> \hfill\break
 Doutoranda do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail: jessicamatheus@outlook.com  <br/> \hfill\break
+E-mail: jessicamatheus@pq.uenf.br <br/> \hfill\break
 
 [Wallace da Silva Mello](http://lattes.cnpq.br/8178088513307546) <br/> \hfill\break
 Doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail: wallace_sm89@hotmail.com <br/> \hfill\break
+E-mail: wallacesilvamello@pq.uenf.br <br/> \hfill\break
 
 [Thiago Pimentel Soares](http://lattes.cnpq.br/5038496684551538) <br/> \hfill\break
 Mestrando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
@@ -137,7 +162,12 @@ E-mail: tpsoares@hotmail.com <br/> \hfill\break
 Mestrando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break 
-E-mail: rafael.salles@outlook.com <br/> \hfill\break
+E-mail: rafael.salles@pq.uenf.br <br/> \hfill\break
+
+[João Gabriel Ribeiro Pessanha Leal](http://lattes.cnpq.br/9277299850069272) <br/> \hfill\break
+Mestrando do Programa de Pós-Graduação em Ciência Política <br/> \hfill\break
+Universidade Federal do Estado do Rio de Janeiro  <br/> \hfill\break
+E-mail: joaoleal@pq.uenf.br  <br/> \hfill\break
 
 [Larissa Martins Marques](http://lattes.cnpq.br/8424422005329610) <br/> \hfill\break
 Graduanda do Curso de Administração Pública <br/> \hfill\break
@@ -149,7 +179,7 @@ E-mail: larissamarques@pq.uenf.br <br/> \hfill\break
 Graduando do Curso de Ciências Sociais <br/> \hfill\break
 niversidade Estadual do Norte Fluminense Darcy Ribeiro  <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail: mattharduim@gmail.com <br/> \hfill\break
+E-mail: m.harduim@pq.uenf.br <br/> \hfill\break
 
 [Fernanda da Silva Souza](http://lattes.cnpq.br/7181203038300743) <br/> \hfill\break
 Graduanda do Curso de Ciências Sociais <br/> \hfill\break
@@ -163,17 +193,30 @@ niversidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
 E-mail: lalabernardo1904@gmail.com <br/> \hfill\break
 
-[Paula Regis]() <br/> \hfill\break
+[Paula Regis Cordeiro de Araujo](http://lattes.cnpq.br/5081047341028478) <br/> \hfill\break
 Graduanda do Curso de Administração Pública <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
 E-mail: regispaularegis@gmail.com <br/>\hfill\break
 
-<br/><br/> \hfill\break \hfill\break
-Falta inserir os pós doutorandos.
-<br/><br/> \hfill\break \hfill\break
 
-## 5. Localização
+## 5. Projetos em Execução 
+
+**Economia social da (In)tolerância política: como avaliações da economia, mobilidade social, escolaridade, gênero e religião impactam as atitudes democráticas no Brasil contemporâneo**
+
+Este projeto visa produzir análises acerca das avaliações e percepções econômicas e seus impactos sobre um conjunto de atitudes e comportamentos individuais conhecidos por tolerância política ao longo dos últimos quatro ciclos eleitorais. Além disso, busca compreender como as variáveis sociológicas clássicas tais como religião, escolaridade, renda e sexo se relacionam aos aspectos tolerância e apoio à democracia. Dessa forma, procura aferir como essas variáveis interferem na opinião pública sobre a democracia, investigando e diferenciando o comportamento de grupos específicos em relação as organizações democráticas.
+
+**Petro rendas e política local: competição eleitoral e políticas públicas em municípios produtores de petróleo**
+
+Este projeto de pesquisa tem como objetivo a investigação de padrões partidários de gastos públicos em municípios petro-rentistas em dois contextos econômicos: de abundancias e crises severas de recursos. Propõem-se construir indicadores e testar modelos econométricos multivariados no intuito de explorar as características políticas dos executivos municipais que estão associadas à variação de padrões de comportamentos orçamentários na administração de recursos indenizatórios. Buscar-se-á comparar unidades da federação com características sociodemográficas similares no intuito de testar hipóteses os efeitos dos recursos dos royalties e participações especiais nos padrões de gastos sociais e com maquina pública dos partidos políticos.
+
+**Poder Local, Partidos Políticos e Eleições Municipais no Brasil Pós-88 **
+
+Este projeto visa produzir análises sistemáticas sobre as dinâmicas político-eleitorais nos municípios brasileiros no pós-88. A questão analítica que se pretende enfrentar refere-se aos possíveis fatores sociodemográficos, políticos e econômicos dos municípios que estão associados às características do poder local no Brasil. Buscar-se-á demonstrar, por fim, se e como a institucionalização do sistema partidário pode ser explicada por meio das características sociodemográficas dos municípios e os impactos das instituições das regras eleitorais.
+
+
+<br/><br/> \hfill\break \hfill\break
+## 6. Localização
 <br/><br/> \hfill\break \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Centro de Ciências do Homem – CCH – Sala 108 - B <br/> \hfill\break
@@ -182,4 +225,5 @@ Campos dos Goytacazes - RJ <br/> \hfill\break
 CEP: 28013-602 <br/> \hfill\break
 Tel: 22 27397040 <br/> \hfill\break
 
+</div>
 
