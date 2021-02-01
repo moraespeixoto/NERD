@@ -1,7 +1,15 @@
 ---
 title: "Núcleo de Estudos em Representação e Democracia"
 subtitle: "NERD"
+header-includes: #allows you to add in your own Latex packages
+- \renewcommand{\contentsname}{Sumário}
+- \usepackage{float} #use the 'float' package
+- \floatplacement{figure}{H} #make every figure with caption = h
 output:
+ pdf_document:
+    fig_cap: yes
+    keep_tex: yes
+    toc: yes
  html_document:
     #number_sections: yes
     toc: yes
@@ -11,29 +19,30 @@ output:
     code_folding: hide #não mostre meus codigos - é opcional p/ o usuário #hide/show
     highlight: tango #Tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, e textmate.
     theme: cosmo #cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex e yeti.
- pdf_document:
-    #toc_depth: 1
-    fig_cap: yes
-    keep_tex: yes
 geometry: left=3cm,right=3cm,top=2cm,bottom=2cm
 fontsize: 12pt
 linestretch: 1.5 
+documentclass: report
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggmap)
 ```
 
 <div style="text-align: justify">
 
+\pagebreak 
+
 
 ## 1. Apresentação
-<br/><br/> \hfill\break
-O Núcleo de Estudos em Representação e Democracia – NERD, tem por objetivo promover pesquisas sobre a evolução política e eleitoral nos níveis subnacionais, principalmente no nível municipal, assim como a relação da mesma com o desenvolvimento.
 
-O grupo de pesquisa aborda a interseção entre três grandes dimensões da análise de sistemas políticos democráticos: governos, comportamento eleitoral e partidos políticos. A partir dos estudos sobre comportamento dos eleitores pretende-se integrar os achados empíricos às teorias sobre estratégias dos partidos políticos nas administrações públicas subnacionais, assim como interagir com análises sobre reeleição de prefeitos, análises que abordam ideologia partidária e gastos públicos no Brasil.
 
-O NERD tem o objetivo de abranger estudos sobre política nacional visando estudos e análises comparadas. As atividades do NERD procuram atender a demanda de informações e análises no Brasil, tendo em conta que existe uma considerável escassez de informações empíricas sobre as características, funcionamento e desempenho das instituições políticas no nível municipal, assim como da interação da dimensão política com o desenvolvimento socioeconômico. 
+O Núcleo de Estudos em Representação e Democracia – NERD – se configura como um grupo de pesquisa que reúne pesquisadores de Ciência Política, Sociologia e Administração pública de instituições ligadas ao Programa de pós-graduação em Sociologia Política da UENF. Está integrado aos cursos de graduação do Centro de Ciências do Homem - CCH - e vinculado ao Laboratório de Estudos da Sociedade Civil e do Estado (LESCE).
+
+O grupo de pesquisa aborda a interseção entre três grandes dimensões da análise de sistemas políticos democráticos: governos locais, comportamento eleitoral e partidos políticos. A partir dos estudos sobre comportamento dos eleitores pretende-se integrar os achados empíricos às teorias sobre estratégias dos partidos políticos nas administrações públicas subnacionais, assim como interagir com análises sobre reeleição de prefeitos, análises que abordam ideologia partidária e gastos públicos no Brasil.
+
+O NERD busca abranger estudos sobre política nacional visando estudos e análises comparadas. As atividades do NERD procuram atender a demanda de informações e análises no Brasil, assim como da interação da dimensão política com o desenvolvimento socioeconômico. 
 
 
 ![](nerd_diagrama_venn.png)
@@ -43,15 +52,16 @@ O NERD tem o objetivo de abranger estudos sobre política nacional visando estud
 O núcleo teve início da suas atividades com o projeto de pesquisa "Competição Eleitoral nos Municípios Brasileiros", em 2011, deu sequencia com o projeto CNPq “Poder Local, Partidos políticos e eleições municipais no Brasil pós 1988”, e atualmente é financiado pela FAPERJ com  projeto “Petro rendas e política local:
 competição eleitoral e políticas públicas em municípios produtores de petróleo”.
 
- - Projeto FAPERJ E-26/111-677/2011."Competição Eleitoral nos Municípios Brasileiros”
- - Projeto CNPq: “Poder local, Partidos políticos e eleições municipais no Brasil pós 1988”.
- - Projeto FAPERJ APQ3 E-26/112.214/2013. “Financiamento de campanhas eleitorais no Brasil”.
- - Projeto FAPERJ - E-26/210-545/2019. “Petro rendas e política local: competição eleitoral e políticas públicas em municípios produtores de petróleo”.
  
 
-## 2. Justificativa (melhorar esta justificativa)
-<br/><br/> \hfill\break 
-No Brasil existe uma considerável escassez de informações empíricas sobre o desempenho e funcionamento das instituições políticas municipais e das interações com o desenvolvimento socioeconômico. O Núcleo de Estudos em Representação e Democracia – NERD, procura contribuir para solucionar esse déficit. A maioria dos trabalhos que abordam o tema da política municipal, analisa as capitais estaduais ou municípios que introduziram novas formas de participação, como o orçamento participativo e os conselhos municipais. 
+O NERD tem por filosofia a utilização de softwares livres e preza pela divulgação de resultados científicos com reprodutibilidade. 
+
+## 2. Justificativa 
+
+A formação do núcleo de pesquisa se justifica pela necessidade de reunir, coordenar e estimular pesquisadores que coadunam interesses temáticos com a unidade  teórico-metodológica sob o mesmo guarda-chuva institucional.
+
+A maioria dos trabalhos que abordam o tema da política municipal analisam as capitais estaduais ou municípios que introduziram novas formas de participação, como o orçamento participativo e os conselhos municipais, em geral, por meio de metodologias qualitativas que privilegiam os estudos de casos. Na intenção de atenuar esse déficit, o Núcleo de Estudos em Representação e Democracia – NERD prioriza abordagens quantitativas que abarcam as 5.570 unidades federativas.
+
 
 A Constituição de 1988 se orienta claramente por um princípio descentralizador e municipalista. No Capítulo IV (“Dos Municípios”), artigo 29 se estabelece que “o município reger-se-á por lei orgânica, votada em dois turnos, com interstício mínimo de dez dias, e aprovada por dois terços da Câmara Municipal (...)”. Já no artigo 30 do mesmo capítulo se estabelecem as competências dos municípios, em que se destacam as áreas de educação pré-escolar, ensino fundamental, saúde e saneamento, podendo ser solicitado para o cumprimento dessas funções, a cooperação técnica e financeira do Estado e da União. Incumbe também aos governos municipais instituir e arrecadar os tributos correspondentes a suas competências, assim como a alocação das receitas.
 
@@ -61,18 +71,27 @@ Concomitantemente ao aumento das responsabilidades e atribuições dos municípi
 
 Os dados censitários a partir de 1991 indicaram um crescimento populacional mais acelerado dos municípios de pequeno, médio e grande porte. Ressalta-se que em alguns municípios de grande porte tal perspectiva se manifestava com um ritmo de crescimento populacional superior ao das Regiões Metropolitanas na década de 1970. Nestes termos, Baeninger (1999: p.538), aponta para o fato de que “os municípios não-metropolitanos registraram um incremento relativo de 22%, no período 1970-1980, e de 6,7% no de 1991-1996”. Assim, pode-se perceber que o processo de interiorização que já vinha ocorrendo no Brasil em décadas anteriores, continuou sendo observado, agudizando-se a partir dos anos 2000.
 
-Outro ponto relevante é o fato de haver uma certa defasagem no que se refere as análises que se comprometem a compreender os possíveis efeitos causais entre a discricionariedade do ocupante da cadeira do executivo local e a provisão de políticas públicas.
+Outro ponto relevante é o fato de haver uma defasagem no que se refere as análises que se pretendem a compreender os possíveis efeitos causais entre a discricionariedade do ocupante da cadeira do executivo local e a provisão de políticas públicas.
 
-Uma das maiores consequências da descentralização federativa foi o destaque dado as prefeituras no que tange ao manejo de políticas sociais, principalmente, aquelas conhecidas no meio acadêmico como constitucionalizadas, como as políticas de saúde e as políticas de educação. Mesmo existindo mínimos constitucionais de aplicação financeira nessas áreas, estudos apontam que ainda há espaço para que os prefeitos ponham as suas marcas políticas na gestão dessas ações estatais. Estudar este aspecto é um dos comprometimentos do laboratório.
+Uma das maiores consequências da descentralização federativa foi o destaque dado aos governos locais no que tange à provisão de políticas sociais, como as políticas de saúde e as políticas de educação. A despeito dos mínimos constitucionais de aplicação financeira nessas áreas, estudos apontam que ainda há espaço para que os prefeitos ponham as suas marcas políticas na gestão dessas ações estatais. Estudar este aspecto é um dos comprometimentos do laboratório.
 
-Ainda nesse contexto, uma outra inquietação que transformar-se-á em pesquisas empíricas pelo NERD está na compreensão das relações entre práticas enquanto gestor municipal e premiação ou punição eleitoral. Um dos encargos científicos deste grupo é inferir os possíveis impactos da gestão da máquina municipal, quais sejam, aumento/diminuição do gasto com educação, aumento/diminuição de leitos hospitalares sobre o fracasso ou sucesso eleitoral dos prefeitos.
+Ainda nesse contexto, as pesquisas empíricas realizadas pelo NERD pretendem dar conta das relações entre as práticas enquanto gestor municipal e a premiação ou punição eleitoral. Um dos encargos científicos deste grupo é analisar os possíveis impactos da gestão da máquina municipal sobre o fracasso ou sucesso eleitoral dos prefeitos, tais como o aumento/diminuição do gasto com educação, aumento/diminuição de leitos hospitalares.
 
-Com base nestas considerações mais gerais propõe-se um núcleo de pesquisa focalizado nas questões relativas à política e ao desenvolvimento socioeconômico. As atividades do núcleo podem ser agrupadas em dois grandes eixos analíticos. O primeiro refere-se ao funcionamento das instituições políticas (eleições, administração pública, comportamento parlamentar e relação executivo-legislativo). O segundo eixo concerne ao desenvolvimento socioeconômico (atividades produtivas, estrutura social, mercado de trabalho e perfil social dos municípios). É objetivo do NERD, nos seus projetos de pesquisa e nas suas atividades em geral, analisar as possíveis relações entre ambos eixos temáticos. Inclui-se nesta proposta o intuito de contribuir com produção de informação e conhecimento científico relevante sobre o desenvolvimento político, econômico e social dos municípios brasileiros, assim como estudos que abordem o desempenho político institucional de outras regiões e municípios do país, possibilitando ainda a realização de análises comparadas, outra dos objetivos do NERD.
+Com base nestas considerações propõe-se um núcleo de pesquisa que privilegia as questões relativas à política pública, eleições e ao desenvolvimento socioeconômico. As atividades do núcleo podem ser agrupadas em três grandes eixos analíticos: (1) o funcionamento das instituições políticas (eleições, administração pública, comportamento parlamentar e relação executivo-legislativo);  (2) desenvolvimento socioeconômico (atividades produtivas, estrutura social, mercado de trabalho e perfil social dos municípios); (3) comportamento eleitoral e opinião pública.
 
 
 ## 3. Objetivos
-<br/><br/> \hfill\break 
-O NERD tem por objetivo promover pesquisas sobre a evolução política e eleitoral no nível municipal, assim como a relação da mesma com o desenvolvimento. O grupo de pesquisa busca disponibilizar análises com o recorte espacial que contempla as mais de 5.550 unidades federativas locais existentes no país, com a pretensão majoritária de realizar pesquisas a partir do método comparado
+
+Os projetos de pesquisa e nas suas atividades em geral, analisar as possíveis relações entre trÊs eixos temáticos: o comportamento eleitoral do brasileiro, estratégias eleitorais partidárias e a provisão de políticas públicas locais.
+
+No que concerne ao comportamento eleitoral, o NERD tem por objetivo construir análises no nível individual sobre um conjunto de variáveis atitudinais e comportamentais que englobam apoio à democracia, tolerância política, intenção de voto, ideologia, conservadorismo, partidarismo, etc.
+
+Na dimensão das estratégias eleitorais dos partidos políticos, o grupo de pesquisa desenvolve uma série de estudos acerca dos desempenhos eleitorais, lançamentos de candidaturas, competição intra e inter partidárias, organização interna dos partidos, políticas eleitorais de gênero, assim como instituições reguladoras das eleições, como TRE's e TSE. 
+
+
+Na dimensão sobre governos locais, inclui-se o intuito de contribuir com produção de informação e conhecimento científico relevante sobre o desenvolvimento político, econômico e social dos municípios brasileiros, assim como estudos que abordem o desempenho político institucional de outras regiões e municípios do país, possibilitando ainda a realização de análises comparadas. Portanto, o NERD tem também por objetivo promover pesquisas sobre a evolução política e eleitoral no nível municipal.
+
+
 
 Os objetivos específicos do núcleo a destacar são:
 
@@ -83,6 +102,10 @@ Os objetivos específicos do núcleo a destacar são:
 - Organizar e compartilhar bases de dados destinados a subsidiar pesquisas acadêmicas e a demandas de instituições públicas e privadas, formadores de opinião e público em geral.
 
 - Participar em editais de financiamento de pesquisas e atividades de extensão.
+
+- Receber pesquisadores de outras instituições.
+
+- Promover pesquisas interinstitucionais com pesquisadores nacionais e internacionais.
 
 
 
@@ -104,13 +127,13 @@ Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
 E-mail: renatobs@gmail.com  <br/> \hfill\break
 
-[Cleinton Roberto Perpeto de Souza](http://lattes.cnpq.br/9603711186053943)
+[Cleinton Roberto Perpeto de Souza](http://lattes.cnpq.br/9603711186053943)\hfill\break
 Pós doutorando do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
-E-mail:  <br/> \hfill\break
+E-mail: cleintongael@gmail.com <br/> \hfill\break
 
-[Patricia de Oliveira Burlamaqui](http://lattes.cnpq.br/6620703529177610)
+[Patricia de Oliveira Burlamaqui](http://lattes.cnpq.br/6620703529177610)\hfill\break
 Pós doutoranda do Programa de Pós-Graduação em Sociologia Politica <br/> \hfill\break
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
@@ -200,30 +223,48 @@ Laboratório de Estudos do Estado e da Sociedade Civil <br/> \hfill\break
 E-mail: regispaularegis@gmail.com <br/>\hfill\break
 
 
-## 5. Projetos em Execução 
+## 5. Projetos
+
+### 5.1 - Em execução:
 
 **Economia social da (In)tolerância política: como avaliações da economia, mobilidade social, escolaridade, gênero e religião impactam as atitudes democráticas no Brasil contemporâneo**
 
 Este projeto visa produzir análises acerca das avaliações e percepções econômicas e seus impactos sobre um conjunto de atitudes e comportamentos individuais conhecidos por tolerância política ao longo dos últimos quatro ciclos eleitorais. Além disso, busca compreender como as variáveis sociológicas clássicas tais como religião, escolaridade, renda e sexo se relacionam aos aspectos tolerância e apoio à democracia. Dessa forma, procura aferir como essas variáveis interferem na opinião pública sobre a democracia, investigando e diferenciando o comportamento de grupos específicos em relação as organizações democráticas.
 
+Fomento: UENF-Faperj
+
 **Petro rendas e política local: competição eleitoral e políticas públicas em municípios produtores de petróleo**
 
 Este projeto de pesquisa tem como objetivo a investigação de padrões partidários de gastos públicos em municípios petro-rentistas em dois contextos econômicos: de abundancias e crises severas de recursos. Propõem-se construir indicadores e testar modelos econométricos multivariados no intuito de explorar as características políticas dos executivos municipais que estão associadas à variação de padrões de comportamentos orçamentários na administração de recursos indenizatórios. Buscar-se-á comparar unidades da federação com características sociodemográficas similares no intuito de testar hipóteses os efeitos dos recursos dos royalties e participações especiais nos padrões de gastos sociais e com maquina pública dos partidos políticos.
 
-**Poder Local, Partidos Políticos e Eleições Municipais no Brasil Pós-88 **
+Fomento: FAPERJ - APQ1
+         CNPq - UENF
 
-Este projeto visa produzir análises sistemáticas sobre as dinâmicas político-eleitorais nos municípios brasileiros no pós-88. A questão analítica que se pretende enfrentar refere-se aos possíveis fatores sociodemográficos, políticos e econômicos dos municípios que estão associados às características do poder local no Brasil. Buscar-se-á demonstrar, por fim, se e como a institucionalização do sistema partidário pode ser explicada por meio das características sociodemográficas dos municípios e os impactos das instituições das regras eleitorais.
 
 
-<br/><br/> \hfill\break \hfill\break
+### 5.2 - Projetos finalizados:
+
+ - Projeto FAPERJ E-26/111-677/2011."Competição Eleitoral nos Municípios Brasileiros”.
+ 
+ - Projeto CNPq: “Poder local, Partidos políticos e eleições municipais no Brasil pós 1988”.
+ 
+ - Projeto FAPERJ APQ3 E-26/112.214/2013. “Financiamento de campanhas eleitorais no Brasil”.
+ 
+
 ## 6. Localização
-<br/><br/> \hfill\break \hfill\break
+
+
 Universidade Estadual do Norte Fluminense Darcy Ribeiro <br/> \hfill\break
 Centro de Ciências do Homem – CCH – Sala 108 - B <br/> \hfill\break
 Av. Alberto Lamego, 2000 - Parque Califórnia <br/> \hfill\break
 Campos dos Goytacazes - RJ <br/> \hfill\break
 CEP: 28013-602 <br/> \hfill\break
 Tel: 22 27397040 <br/> \hfill\break
+
+
+[![](mapa.png)](https://www.google.com.br/maps/place/Av.+Alberto+Lamego,+2000+-+Parque+California,+Campos+dos+Goytacazes+-+RJ,+28013-602/@-21.7618032,-41.2934395,18z/data=!4m5!3m4!1s0xbdd59a0a81985b:0xf4793c8dba9348ac!8m2!3d-21.7623551!4d-41.2946988)
+
+
 
 </div>
 
